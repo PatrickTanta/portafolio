@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-section w-full p-8 mt-5">
+  <div id="contact" class="bg-section w-full p-3 mt-5">
     <p class="text-secondary font-bold text-4xl text-center">
       Contact
     </p>
@@ -20,11 +20,15 @@
         placeholder="Your email here…"
       >
       <label class="text-xl font-bold my-3 text-start">Message</label>
-      <input
+      <!-- <input
         type="text"
         class="rounded-xl h-14 w-full p-5"
         placeholder="Your message here…"
-      >
+      > -->
+      <textarea
+        placeholder="Your message here…"
+        class="rounded-xl h-44 w-full p-5"
+      />
       <button type="submit" class="text-form w-full border-2 rounded-md my-5 bg-section hover:bg-yellow-50 hover:text-black font-bold h-10">
         Meet the team
       </button>

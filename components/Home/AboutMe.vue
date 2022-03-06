@@ -1,14 +1,15 @@
 <template functional>
-  <div class="w-full sm:w-96 p-3 sm:p-0">
-    <p class="text-subtitle text-3xl mt-10 text-center">
+  <div id="about-me" class="w-full sm:w-96 p-3 sm:p-0">
+    <p class="text-subtitle text-4xl font-bold mt-10 mb-5 text-center">
       About me
     </p>
-    <p class="text-base font-medium text-white">
+    <p class="text-base font-medium text-white mb-5">
       I’m a Front-End Developer located in Peru. I have a serious passion for functional things, animations and creating intuitive, dynamic user experiences.
+      Visit my LinkedIn profile for more details or just contact me.
     </p>
-    <button class="mb-5 text-black w-full border-2 rounded-md mt-5 bg-subtitle hover:bg-white hover:text-black font-bold h-10">
+    <!-- <button class="mb-5 text-black w-full border-2 rounded-md mt-5 bg-subtitle hover:bg-white hover:text-black font-bold h-10">
       Who I am
-    </button>
+    </button> -->
     <button
       class="
       w-16

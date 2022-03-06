@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 w-full grid grid-cols-12">
+  <div id="my-projects" class="mt-5 w-full grid grid-cols-12">
     <transition v-if="!loading" :css="false" appear @before-enter="beforeEnter" @enter="enter">
       <div class="col-start-1 col-end-13 sm:col-start-2 sm:col-end-12 projects">
         <div
